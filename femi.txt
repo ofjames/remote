@@ -1,0 +1,100 @@
+<<car
+echo " What is your name "
+read name
+echo " what is your pin "
+read pin
+echo " what is your date of birth "
+read date of birth
+echo " what is your gender "
+read gender
+echo " what are country are you from "
+read country
+echo " Thank you your transaction has now been completed " 
+car
+
+#project=tesla
+#x=10
+
+#echo " I am done with the $project car and it took me $x days to complete "
+
+#echo " $1 i am $2years old and i need a pen for my $3 this $4"
+
+
+#!/bin/bash
+# script that demonstrate command line argument
+
+<<go
+echo " total number of command line argument or $# "
+echo " $0 is script name "
+echo " $1 is first argument "
+echo " $2 is second argument "
+echo " all of them are $* or $@ "
+go
+
+
+#echo " mine " >/dev/null
+<<sit
+a=5
+if [ "$a" = "5" ];
+then
+echo " no is correct "
+fi
+sit
+
+
+<<it
+#echo " please enter your username "
+#read name
+#if [ "$name" = "femi" ];
+#then
+ #   echo "welcome back femi"
+e#lse
+  #  echo "invalid username , please register an account"
+#fi
+it
+
+
+
+<<it
+#!/bin/bash
+echo "enter the filename"
+read file
+if [ -s $file ]
+then 
+echo "$file is empty or does not exist."
+else
+ls > mine.txt
+echo " file now exists."
+fi
+it
+
+
+#a=20
+#b=20
+
+<<it 
+if [ $a -eq $b ]
+then 
+echo numbers equal
+else
+echo numbers are not equal
+fi
+it
+
+
+<<it
+file=grace.txt
+if [ -e "$file" ]
+then
+echo "file exist"
+else
+echo "file does not exit "
+fi
+it
+
+
+for (( i=1; i<5; i++ ))
+do
+echo "value of i is $i
+done
+
